@@ -1,4 +1,4 @@
-module github.com/TimothyGu/math
+module go.timothygu.me/math
 
 go 1.14
 

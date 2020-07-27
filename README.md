@@ -9,7 +9,7 @@ This package contains a few math utilities that are not found in the builtin
 
 The usual:
 ```go
-import "github.com/TimothyGu/math/imath" // or any package you'd like to use
+import "go.timothygu.me/math/imath" // or any package you'd like to use
 ```
 
 ## Developing this package
