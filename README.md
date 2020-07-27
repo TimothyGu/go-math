@@ -5,7 +5,14 @@ This package contains a few math utilities that are not found in the builtin
 [Min](https://pkg.go.dev/math?tab=doc#Min) and
 [Max](https://pkg.go.dev/math?tab=doc#Max) for integral types, etc.
 
-## Getting started
+## Using this package
+
+The usual:
+```go
+import "github.com/TimothyGu/math/imath" // or any package you'd like to use
+```
+
+## Developing this package
 
 All of the functional code is [generated](https://blog.golang.org/generate) for
 different types – at least until Go gains
@@ -29,3 +36,7 @@ Finally, to remove all generated files, do
 ```sh
 make clean
 ```
+
+## License
+
+See LICENSE.md.
