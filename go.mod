@@ -1,4 +1,4 @@
-module go.timothygu.me/math
+module go.timothygu.me/math/v2
 
 go 1.14
 
