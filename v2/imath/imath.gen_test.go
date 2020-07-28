@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.timothygu.me/math/umath"
+	"go.timothygu.me/math/v2/umath"
 )
 
 func ExampleAbs() {

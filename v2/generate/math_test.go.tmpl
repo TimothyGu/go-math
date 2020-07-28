@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 {{if .Signed}}
-	"go.timothygu.me/math/{{.UnsignedPackageName}}"
+	"{{.ParentPackageName}}/{{.UnsignedPackageName}}"
 {{end}}
 )
 

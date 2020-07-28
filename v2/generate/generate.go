@@ -12,6 +12,8 @@ import (
 	"text/template"
 )
 
+const parentPkgName = "go.timothygu.me/math/v2"
+
 const defaultDirPerms os.FileMode = 0777
 
 type unexpandedPkg struct {
@@ -25,6 +27,7 @@ type unexpandedPkg struct {
 }
 
 type expandedPkg struct {
+	ParentPackageName   string
 	PackageName         string
 	UnsignedPackageName string
 	TypeName            string
@@ -63,6 +66,7 @@ func init() {
 			unsignedTypeName = pkg.unsignedTypeName
 		}
 		expandedPkgs[t] = expandedPkg{
+			ParentPackageName:   parentPkgName,
 			PackageName:         pkg.packageName,
 			UnsignedPackageName: unsignedPackageName,
 			TypeName:            t,
